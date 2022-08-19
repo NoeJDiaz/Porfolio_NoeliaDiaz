@@ -1,0 +1,33 @@
+.row{
+    padding: 20px;
+    background-color: #ffcdb2;
+    color: #6d6875;
+}
+.contenedor{
+    width: auto;
+    display: inline-flex;
+}
+.parte1, .parte2{
+display: inline-block;
+text-align: justify;
+}
+
+.img_proyecto{
+    box-shadow: 10px 10px 30px #6d6875;
+    height: 150px;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+@media(max-width: 500px ){
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img_proyecto{
+        margin-top: 0px;
+        margin-left: 0px;
+        height: 130px;
+    }
+}
